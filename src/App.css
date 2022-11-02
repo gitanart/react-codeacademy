@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.button-primary {
+  background-color: orange;
+  color: white;
+}
+
+.button-secondary {
+  background-color: red;
+  color: white;
+}
+
+.button-tertiary {
+  background-color: transparent;
+  color: black;
+}
