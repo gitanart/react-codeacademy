@@ -1,11 +1,18 @@
-import {Greeting} from './Greeting/Greeting';
 import './App.css';
+import { Page } from './Page/Page';
+import { HomePage} from './HomePage/HomePage';
 
 function App() {
 
   return (
     <div className="App">
-      <Greeting isLoggedIn={true} unreadMessages={[1, 1, 1, 1]}/>
+       <Page title="Home page">
+        <h2>This is subtitle</h2>
+        <p>This is home page description text</p>
+        <button>Click me</button>
+        </Page>
+
+        <HomePage />
     </div>
   );
 }
